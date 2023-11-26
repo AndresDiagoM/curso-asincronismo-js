@@ -23,8 +23,6 @@ async function fetchData(url, options) {
     }
 }
 
-// fetchData();
-
 // SERIES CONTAINER FETCH AND RENDER    
 const seriesCarouselIndicators = document.querySelector('.series-indicators'); 
 const seriesList = document.querySelector('.series-inner');
