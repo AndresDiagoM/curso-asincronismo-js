@@ -102,11 +102,11 @@ try {
 
 | Endpoint | HTTP Method | CRUD Method | Result |
 | -------- | ----------- | ----------- | ------ |
-| /api/users | GET | READ | get all users |
-| /api/users/:id | GET | READ | get a single user |
-| /api/users | POST | CREATE | add a user |
-| /api/users/:id | PUT | UPDATE | update a user |
-| /api/users/:id | DELETE | DELETE | delete a user |
+| /titles | GET | READ | get all movies | 
+| /titles/:id | GET | READ | get a single movie |
+| /titles/similars | GET |  READ | get similar series |
+
+
 
 
 ## Built With
